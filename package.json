@@ -1,0 +1,26 @@
+{
+  "name": "toyproblems",
+  "version": "1.0.0",
+  "description": "repository of test problems for personal use",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "mocha": "^9.0.2"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/castzad/toyProblems.git"
+  },
+  "author": "Zad Castaneda",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/castzad/toyProblems/issues"
+  },
+  "homepage": "https://github.com/castzad/toyProblems#readme"
+}
