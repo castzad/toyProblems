@@ -2,7 +2,6 @@
   "name": "toyproblems",
   "version": "1.0.0",
   "description": "repository of test problems for personal use",
-  "main": "index.js",
   "directories": {
     "test": "test"
   },
