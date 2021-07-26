@@ -1,8 +1,24 @@
 var assert = require('assert')
-findMedianSortedArrays = require('../medianOfTwoSortedArrays/medianOfTwoSortedArrays.js')
+findMedianSortedArrays = require('../medianOfTwoSortedArrays/medianOfTwoSortedArrays.js');
+twoSum = require('../2sum/2sum.js');
 
 describe('findMedianSortedArrays', function() {
-  it('Should find median of sorted arrays', function() {
+  it('Should find median of two sorted arrays', function() {
     assert.equal(findMedianSortedArrays([1, 2], [3]), 2)
+  }),
+  it('Should find median of two sorted arrays', function() {
+    assert.equal(findMedianSortedArrays([1,2], [3,4]), 2.5)
+  }),
+  it('Should find median of two sorted arrays', function() {
+    assert.equal(findMedianSortedArrays([2, 3, 4], [5, 6]), 4)
+  }),
+  it('Should find median of two sorted arrays', function() {
+    assert.equal(findMedianSortedArrays([3, 4, 5, 6], []), 4.5)
+  })
+})
+
+describe('2sum', function() {
+  it('Should find indices of an array of nums', function() {
+    assert.equal(JSON.stringify(twoSum([2, 7, 11, 15], 9)), JSON.stringify([0, 1]))
   })
 })

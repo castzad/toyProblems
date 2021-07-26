@@ -22,7 +22,7 @@ Output: 0.00000 */
 var findMedianSortedArrays = function(nums1, nums2) {
   let joinedArray = nums1.concat(nums2)
   let median = Math.round(joinedArray.length / 2) - 1
-  if (joinedArray[median] % 2 === 1) {
+  if (joinedArray.length % 2 === 1) {
     return joinedArray[median]
   } else {
     median = joinedArray[median] + joinedArray[median + 1]
@@ -30,4 +30,4 @@ var findMedianSortedArrays = function(nums1, nums2) {
   }
 };
 
-module.exports = findMedianSortedArrays
+module.exports = findMedianSortedArrays;
